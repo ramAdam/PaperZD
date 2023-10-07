@@ -1,3 +1,6 @@
 Intermediate/
 Binaries/
 .vs/
+.vscode/
+temp/
+build.sh
