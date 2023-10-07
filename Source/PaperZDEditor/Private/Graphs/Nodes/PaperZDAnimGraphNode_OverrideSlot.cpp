@@ -53,7 +53,7 @@ FText UPaperZDAnimGraphNode_OverrideSlot::GetNodeTitle(ENodeTitleType::Type Titl
 	{
 		return FText::FromName(AnimNode.SlotName);
 	}
-	else if ((TitleType == ENodeTitleType::MenuTitle))
+	else if (TitleType == ENodeTitleType::MenuTitle)
 	{
 		return LOCTEXT("NewOverrideSlot", "New Override Slot...");
 	}

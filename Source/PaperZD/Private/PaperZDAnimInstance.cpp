@@ -182,7 +182,7 @@ void UPaperZDAnimInstance::UpdateAnimationOverrides(float DeltaTime)
 
 		//Check if the override completed
 		if ((Handle.PlayRate > 0.0f && FMath::IsNearlyEqual(Handle.PlaybackTime, Handle.AnimSequencePtr->GetTotalDuration()))
-			|| Handle.PlayRate < 0.0f && FMath::IsNearlyEqual(Handle.PlaybackTime, 0.0f))
+			||( Handle.PlayRate < 0.0f && FMath::IsNearlyEqual(Handle.PlaybackTime, 0.0f)))
 		{
 			//If we call the delegate right away it might happen that the user triggers another animation callback on the same slot/group,
 			//the system will then incorrectly assume that a "cancel" should be triggered as the OverrideHandle hasn't been unregistered yet.
