@@ -2,5 +2,5 @@ Intermediate/
 Binaries/
 .vs/
 .vscode/
-temp/
+build/
 build.sh
