@@ -23,5 +23,5 @@ To compile the plugin for Linux, you can use the provided shell script. Follow t
 
 6. Rename the build folder to PaperZD and move it to plugin/MarketPlace folder in your engine (create the directory if doesn't exist)
 
-##Credits:
+## Credits
 This plugin is based on the PaperZD plugin available on the Unreal Engine Marketplace. For more information and additional features, please visit the official marketplace page. [PaperZD](https://www.unrealengine.com/marketplace/en-US/product/paperzd)
