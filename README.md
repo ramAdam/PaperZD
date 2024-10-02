@@ -1,6 +1,7 @@
-# PaperZD UE5 Plugin Version 2.0.5 for linux
+# PaperZD UE5 Plugin Version 2.0.5 for Linux
 
-This repository contains the PaperZD plugin for Unreal Engine 5.1.2.
+This repository contains the PaperZD plugin for Unreal Engine 5.1.2. 
+For questions, join our [Discord Community](https://discord.gg/VzuJRas)
 
 ## Compiling for Linux (Tested on Arch)
 
